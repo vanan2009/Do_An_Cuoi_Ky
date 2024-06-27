@@ -5,7 +5,7 @@ import java.net.*;
 
 public class SimpleServer {
     public static void main(String[] args) {
-        final int portNumber = 12345;
+        final int portNumber = 1234;
         System.out.println("Khởi động máy chủ trên cổng " + portNumber);
 
         try (ServerSocket serverSocket = new ServerSocket(portNumber)) {
